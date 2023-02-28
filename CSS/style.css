@@ -1,0 +1,1154 @@
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Raleway-Thin';
+    src: url('fonts/Raleway-Thin.ttf');
+}
+
+body 
+{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* Header : logo + navigation */
+header
+{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.nav-head
+{
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-head img
+{
+    margin-top: 1%;
+    width: 90px;
+    height: 45px;
+    margin-left: 15px
+}
+
+nav ul
+{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    display: flex;
+}
+
+nav li
+{
+    list-style: none;
+    padding: 30px;
+}
+
+nav li:hover
+{
+    color: #0065FC;
+    box-shadow: inset 0px 3px 0px 0px #0065fc;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+/* Partie "recherche" */
+.title-search h1
+{
+    font-size: 17.8px;
+}
+
+.title-search p 
+{
+    font-family: 'Raleway-Thin', Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.barre-search 
+{
+    margin-left: -5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.search 
+{
+    color: white;
+    background-color: #0065FC;
+    border: 3px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    position: relative;
+    cursor: pointer;
+    right: 5px;
+    font-size: 16px;
+    padding: 7px 6px 7px 6px;
+    height: 39px;
+}
+
+.fa-map-marker-alt 
+{
+    font-size: 12.1px;
+    cursor: pointer;
+    padding: 10.5px;
+    border-radius: 15px 0px 0px 15px;
+    border: 3px solid #F2F2F2;
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    background-color: #F2F2F2;
+}
+
+input 
+{
+    font-weight: bolder;
+    height: 35px;
+    border: 1px solid #F2F2F2;
+    width: 190px;
+}
+
+.after-btn
+{
+    border: none;
+    background-color: white;
+    color: white;
+}
+
+/* Partie "filtres" */
+.filter 
+{
+    display: flex;
+    margin-left: 7px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.filter p 
+{
+    margin-right: -20px;
+}
+
+.economic 
+{
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.fa-money-bill-wave 
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid #DEEBFF;
+    border-radius: 20px;
+    height: 16.5px;
+    position: relative;
+    left: 45px;
+    top: 0.5px;
+    padding: 7px;
+    margin-right: 15px;
+}
+
+.family 
+{
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 35px;
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+.fa-child-reaching 
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #DEEBFF;
+    border-radius: 20px;
+    height: 16.5px;
+    position: relative;
+    left: 30px;
+    top: 0.5px;
+    padding: 7px 9px 7px 9px;
+    margin-right: 10px;
+}
+
+.romantic 
+{
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 35px;
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+.fa-heart 
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #DEEBFF;
+    border-radius: 20px;
+    height: 17px;
+    position: relative;
+    left: 30px;
+    top: 0.3px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.animal 
+{
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 35px;
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+.fa-dog 
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #DEEBFF;
+    border-radius: 20px;
+    height: 17px;
+    position: relative;
+    left: 30px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+/* Partie "Information" */
+.fa-info 
+{
+    font-size: 10px;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 3px 5.5px 3px 6px;
+    margin-right: 7px;
+    height: 10px;
+}
+
+.info 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.info p 
+{
+    font-family: 'Raleway-Thin', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.hebergement_populaire 
+{
+    min-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+main
+{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/* Hébergements à Marseille */
+#hebergements_marseills 
+{
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: 589px;
+}
+
+#hebergements_marseills h2 
+{
+    margin-left: 12px;
+}
+
+.card 
+{
+    max-width: 100%;
+    column-count: 3;
+    margin-left: 12px;
+}
+
+.card figure
+{
+    width: 94%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.card figure img
+{
+    width: 96%;
+    height: 199px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.card .hover-card
+{
+    margin-bottom: -65px;
+    width: 92.1%;
+    height: 61px;
+    background-color: white;
+    position: relative;
+    bottom: 92px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow:  5px 5px 15px rgba(170, 170, 170, 0.452);
+    padding-top: 26px;
+    line-height: 141%;
+    padding-left: 15px;
+}
+
+.card .hover-card h3
+{
+    margin-top: -18px;
+    font-size: 15px;
+}
+
+.card .hover-card p 
+{
+    font-size: 13.5px;
+    margin-top: -15px;
+}
+
+.rating 
+{
+    display: flex;
+    margin-top: -9px;
+    font-size: 12px;
+}
+
+.fa-star 
+{
+    color: #0065FC;
+}
+
+.star0 
+{
+    color: #F2F2F2;
+    margin-left: 4.3px;
+}
+
+.showmore a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-left: 15px;
+    position: relative;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+.card a
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Les plus populaires */
+.popular 
+{
+    min-width: 26%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding: 25px;
+    margin-left: 35px;
+    height: 578px;
+}
+
+.icon-article
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.icon-article .star1
+{
+    color: initial;
+}
+
+.popular figure
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(170, 170, 170, 0.452);
+    margin-bottom: 37px;
+}
+
+.popular figure img
+{
+    width: 150px;
+    height: 133px;
+    border: 5px solid white;
+    border-radius: 20px 0 0 20px;
+}
+
+.popular .hover-card
+{
+    margin-left: 12px;
+}
+
+.popular .hover-card h3
+{
+    font-size: 15px;
+}
+
+.popular .hover-card p
+{
+    margin-top: -7px;
+    font-size: 13.5px;
+}
+
+.p-rating 
+{
+    display: flex;
+    margin-top: 42px;
+    font-size: 12px;
+}
+
+.popular a
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+}
+
+/* Activités à Marseille */
+.activity
+{
+    width: 101%;
+    column-count: 4;
+}
+
+.activity figure
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width: 94%;
+}
+
+.activity .hover-card
+{
+    background-color: white;
+    box-shadow:  5px 5px 15px rgba(170, 170, 170, 0.452);
+    border: 5px solid white;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    bottom: 20px;
+    padding: 15px;
+}
+
+.activity h3
+{
+    margin: 0;
+    font-size: 15px;
+}
+
+.img-port
+{
+    width: 100%;
+    height: 416px;
+    border-radius: 20px 20px 0 0; 
+}
+
+.img-calanques
+{
+    width: 100%;
+    height: 416px;
+    border-radius: 20px 20px 0 0; 
+}
+
+.img-fort
+{
+    width: 100%;
+    height: 192px;
+    border-radius: 20px 20px 0 0; 
+}
+
+.img-frioul
+{
+    width: 100%;
+    height: 143px;
+    border-radius: 20px 20px 0 0;     
+}
+
+.img-notredame
+{
+    width: 100%;
+    height: 147px;
+    border-radius: 20px 20px 0 0; 
+}
+
+.img-longchamp
+{
+    width: 100%;
+    height: 186px;
+    border-radius: 20px 20px 0 0; 
+}
+
+.frioul
+{
+    position: relative;
+    top: 19px
+}
+
+.longchamp
+{
+    position: relative;
+    top: 19px
+}
+
+.activity a
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer 
+{
+    background-color: #F2F2F2;
+    height: 200px;
+    display: flex;
+    padding-left: 35px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+#article 
+{
+    margin-right: 195px;
+}
+
+#logement 
+{
+    margin-right: 257px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    .after-btn
+    {
+        color: #0065FC;
+    }
+
+    .hebergement_populaire
+    {  
+      flex-direction: column;
+    }
+
+    #hebergements_marseills 
+    {
+        height: 600px;
+    }
+
+    .card .hover-card
+    {
+        width: 91.7%;
+    }
+
+    .showmore a
+    {
+        bottom: 64px;
+    }
+
+    .popular 
+    {
+        padding: 20px;
+        height: 372px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .icon-article
+    {
+        margin-right: 19px;
+    }
+
+    .icon-article h2
+    {
+        margin-left: 21px;
+    }
+
+    .star1
+    {
+        color: initial;
+    }
+
+    .list-logement
+    {
+        max-width: 100%;
+        column-count: 3;
+        background-color: #F2F2F2;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .popular figure
+    {
+        height: 254px;
+        width: 100%;
+    }
+
+    .popular figure img
+    {
+        width: 95%;
+        height: 107px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .popular .hover-card p
+    {
+        font-size: 15px;
+    }
+
+    #rating-tout
+    {
+        margin-top: 57px;
+    }
+
+    .popular a
+    {
+        flex-direction: column;
+    }
+
+    #activity_marseille h2
+    {
+        padding-left: 34px;
+    }
+
+    .activity
+    {
+        column-count: 2;
+        padding-left: 15px;
+    }
+
+    .activity figure
+    {
+        width: 100%;
+    }
+
+    .activity .hover-card
+    {
+        position: relative;
+        bottom: 20px;
+        right: 1px;
+        padding: 15px;
+        width: 80.8%;
+        height: 23px;
+    }
+
+    .img-port
+    {
+        width: 91.1%;
+        height: 470px;
+    }
+
+    .img-fort
+    {
+        width: 91.1%;
+        height: 256px;
+    }
+
+    .img-frioul
+    {
+        width: 91.1%;
+        height: 145px;
+    }
+
+    .img-calanques
+    {
+        width: 91%;
+        height: 470px;
+    }
+
+    .img-notredame
+    {
+        width: 91%;
+        height: 200px;
+    }
+
+    .img-longchamp
+    {
+        width: 91%;
+        height: 200px;
+    }
+
+    footer
+    {
+        height: 178px;
+    }
+
+    #article 
+    {
+        margin-right: 122px;
+    }
+
+    #logement
+    {
+        margin-right: 130px;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    header 
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav-head
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-head img
+    {
+        position: relative;
+        top: 9px;
+    }
+
+    .nav-hebergement
+    {
+        padding-left: 67px;
+        padding-right: 36px;
+    }
+
+    .nav-activity
+    {
+        padding-left: 39px;
+        padding-right: 111px;
+    }
+
+    nav li
+    {
+        padding-top: 40px;
+        padding-bottom: 15px;
+        box-shadow: 0px 3px 0px 0px #f2f2f2;
+    }
+
+    nav li:hover
+    {
+        box-shadow: 0px 3px 0px 0px #0065fc
+    }
+
+    /* Partie "recherche" */
+    .title-search
+    {
+        margin-left: 33px;
+    }
+
+    .title-search h1
+    {
+        width: 276px;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+    .title-search p 
+    {
+        margin-top: 20px;
+        font-size: 15.2px;
+    }
+
+    .barre-search 
+    {
+        margin: 29px 0 29px 29px;
+        width: 320px;
+    }
+
+    .search 
+    {
+        color: #0065FC;
+        border-radius: 15px;
+        cursor: pointer;
+        right: 19px;
+        top: -4px;
+        font-size: 4px;
+    }
+
+    .after-btn
+    {
+        background-color: #0065FC;
+        position: relative;
+        left: 269px;
+        bottom: 31.5px;
+        cursor: pointer;
+    }
+
+    .fa-map-marker-alt 
+    {
+        font-size: 15px;
+        cursor: pointer;
+        padding: 9px;
+        border-radius: 15px 0px 0px 15px;
+        border: 3px solid #F2F2F2;
+        position: relative;
+        left: 5px;
+        bottom: 0;
+        text-align: center;
+        background-color: #F2F2F2;
+        width: 18px;
+    }
+
+    input 
+    {
+        font-weight: bolder;
+        height: 35px;
+        width: 224px;
+        border: 1px solid #F2F2F2;
+        font-size: 15px;
+    }
+
+    /* Partie "Filtres" */
+    .filter 
+    {
+        /*display: flex;*/
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: -30px;
+        margin-left: 17px;
+        min-width: 320px;
+    }
+
+    .filter p 
+    {
+        margin-left: 16px;
+        margin-top: 0;
+        margin-bottom: 9px;
+        font-size: 17px;
+    }
+
+    .eco-fam
+    {
+        margin-left: -34px;
+    }
+
+    .economic 
+    {
+        height: 39px;
+        padding-right: 15px;
+        padding-left: 37px;
+    }
+
+    .fa-money-bill-wave 
+    {
+        font-size: 16px;
+        left: 50px;
+        top: 1.5px;
+        padding: 9px 7px 9px 7px;
+    }
+
+    .family 
+    {
+        height: 39px;
+        padding-right: 13px;
+        padding-left: 39px;
+        margin-left: -42px;
+    }
+
+    .fa-child-reaching 
+    {
+        height: 19px;
+        left: 5px;
+        top: 1.5px;
+        padding: 9px 11px 7px 11px;
+    }
+
+    .romantic 
+    {
+        height: 39px;
+        padding-left: 42px;
+        margin-left: 17px;
+        margin-top: -20px;
+    }
+
+    .fa-heart 
+    {
+        height: 20.1px;
+        left: 17px;
+        top: 18.5px;
+        padding: 9px 7px 5px 8px;
+    }
+
+    .animal 
+    {
+        height: 39px;
+        padding-left: 42px;
+        margin-left: 18px;
+        margin-top: -20px;
+    }
+
+    .fa-dog 
+    {
+        height: 20px;
+        left: 18px;
+        top: 19px;
+        padding: 9px 7px 6px 7px;
+    }
+
+    /* Partie "Infor" */
+    .fa-info 
+    {
+        position: relative;
+        bottom: 7px;
+    }
+
+    .info 
+    {
+        margin-left: 34px;
+        margin-top: 16px;
+    }
+
+    .info p 
+    {
+        font-size: 14px;
+        width: 256px;
+    }
+
+    main
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hebergement_populaire 
+    {
+        flex-direction: column-reverse;
+    }
+
+    /* les plus populaires */
+    .popular 
+    {
+        border-radius: 0;
+        padding: 25px 15px 25px 15px;
+        height: 584px;
+        margin: 0px;
+        min-width: 97%;
+    }
+
+    .icon-article
+    {
+        margin-right: 12px;
+        margin-left: 10px;
+    }
+
+    .icon-article h2
+    {
+        font-size: 23.5px;
+    }
+
+    .list-logement 
+    {
+        margin-left: 10px;
+        margin-right: 9px;
+    }
+
+    .star1
+    {
+        color: initial;
+    }
+
+    .popular .hover-card
+    {
+        margin-left: 15px;
+    }
+
+    /* Hébergements à Marseille */
+    #hebergements_marseills 
+    {
+        height: 1424px;
+        background-color: white;
+        min-width: 94%;
+    }
+
+    #hebergements_marseills h2
+    {
+        margin-left: 3px;
+        font-size: 23.5px;
+    }
+
+    .card 
+    {
+        width: 100%;
+        background-color: white;
+        column-count: 1;
+        margin-left: 2px;
+    }
+
+    .card figure
+    {
+        width: 100%;
+    }
+
+    .card figure img
+    {
+        box-shadow:  5px 5px 15px rgba(170, 170, 170, 0.452);
+    }
+
+    .card .hover-card
+    {
+        margin-bottom: -70px;
+        width: 94.2%;
+        bottom: 91px;
+    }
+
+    .showmore a
+    {
+        margin-left: 3px;
+    }
+
+    /* Activités à Marseille */
+    .activity
+    {
+        column-count: 1;
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    #activity_marseille
+    {
+        padding: 20px;
+        min-width: 94%;
+    }
+
+    #activity_marseille h2
+    {
+        margin-left: 3px;
+        font-size: 23.5px;
+    }
+
+    .activity figure
+    {
+        width: 93%
+    }
+
+    .activity .hover-card
+    {
+        right: 1px;
+        width: 94.2%;
+        height: 23px;
+    }
+
+    .activity img
+    {
+        height: 157px;
+        border-radius: 20px 20px 0 0;
+        width: 106.3%;
+        box-shadow:  5px 5px 15px rgba(170, 170, 170, 0.452); 
+    }
+
+    .activity a
+    {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .frioul 
+    {
+        position: relative;
+        top: 0;
+    }
+
+    .longchamp 
+    {
+        position: relative;
+        top: 0;
+    }
+
+    /* Footer */
+    footer 
+    {
+        height: 100%;
+        flex-direction: column;
+        padding: 26px 0px 25px 29px;
+        margin-top: 20px;
+        min-width: 98%;
+    }
+
+    #article
+    {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    #logement 
+    {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+}
